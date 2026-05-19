@@ -8,52 +8,57 @@ html, body {
     width: 100%;
 }
 
-@mixin flexCenter(){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// @mixin flexCenter(){
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
 
 
-main{
-    height: 100%;
-    width: 100%;
-    background-color: crimson;
-    @include flexCenter();
+// main{
+//     height: 100%;
+//     width: 100%;
+//     background-color: crimson;
+//     @include flexCenter();
     
 
 
-    section{
-        height: 50%;
-        width: 50%;
-        background-color: salmon;
-        @include flexCenter();
-        border-radius: 20px;
+//     section{
+//         height: 50%;
+//         width: 50%;
+//         background-color: salmon;
+//         @include flexCenter();
+//         border-radius: 20px;
 
 
 
-        h1{
-            font-family: system-ui;
-            font-size: 3rem;
-            color: black;
-        }
-    }
-}
+//         h1{
+//             font-family: system-ui;
+//             font-size: 3rem;
+//             color: black;
+//         }
+//     }
+// }
 
 
-@mixin button-style($bg-color){
-    padding: 10px;
-    background-color: $bg-color;
-    color: whitesmoke;
-    border: none;
-    border-radius: 7px;
-    outline: none;
-    cursor: pointer;
-}
+// @mixin button-style($bg-color){
+//     padding: 10px;
+//     background-color: $bg-color;
+//     color: whitesmoke;
+//     border: none;
+//     border-radius: 7px;
+//     outline: none;
+//     cursor: pointer;
+// }
 
-.blue{
-    @include button-style(blue);
-}
-.red{
-    @include button-style(red);
-}
+// .blue{
+//     @include button-style(blue);
+// }
+// .red{
+//     @include button-style(red);
+// }
+
+
+
+
+
