@@ -58,3 +58,25 @@
 
 // let text = "Learning JavaScript is fun";
 // console.log(text.includes("fun"))
+
+
+// let a = 12;
+// let b = a;
+// a = a+b;
+
+// let c = [1,2,3];
+// let d = c;
+// c.pop();
+
+
+// let a = "";    //null
+// let b;          //undefined
+
+
+// let a = Number.MAX_SAFE_INTEGER;
+
+// let a = 9007199254740991n;
+// console.log(a+4n);
+
+
+
