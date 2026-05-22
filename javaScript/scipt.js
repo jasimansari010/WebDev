@@ -46,7 +46,7 @@
 
 
 // let fruits = "apple, banana, grapes";
-// console.log(fruits.split(","));
+// console.log(fruits.split(","));                 
 
 
 // let str = "I love HTML";
@@ -82,4 +82,7 @@
 
 // let name = prompt("name ?");
 // console.log(name);
+
+
+
 
