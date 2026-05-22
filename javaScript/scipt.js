@@ -80,5 +80,6 @@
 
 
 
-let name = prompt("name ?");
-console.log(name);
+// let name = prompt("name ?");
+// console.log(name);
+
