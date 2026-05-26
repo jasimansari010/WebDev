@@ -89,3 +89,65 @@
 // let num2 = Number(prompt("Enter the second Number:"));
 // let sum = num1 + num2;
 // console.log(sum);
+
+
+// 2. Input length and breadth of a rectangle and print area.
+// let length = Number(prompt("Enter the length of rectangle: "));
+// let breadth = Number(prompt("Enter the breadth of rectangle: "));
+// console.log(length*breadth);
+
+
+// 3. Input radius of a circle and print circumference.
+// let r = Number(prompt("Enter the radius: "));
+// let pi = Math.PI;
+// console.log("circumference of circle: " + 2*Math.PI*r);
+
+
+
+// 4. Swap two numbers using a third variable.
+// let num1 = 10;
+// let num2 = 20;
+// let temp;
+// temp = num1;
+// num1 = num2;
+// num2 = temp;
+// console.log(num1 , num2);
+
+
+// 5. Swap two numbers without using a third variable.
+// let num1 = 10;
+// let num2 = 20;
+// num1 = num1 + num2;
+// num2 = num1 - num2;
+// num1 = num1 - num2;
+// console.log(num1, num2);
+
+// OR
+// let num1 = 40;
+// let num2 = 20;
+
+// [num1, num2] = [num2, num1];
+
+// console.log(num1, num2);
+
+
+// 6. Convert temperature from Celsius to Fahrenheit.
+// let C = 25;
+// let farhenheit = (9/5)*C+32;
+// console.log(farhenheit);
+
+
+// 7. Input principal, rate, and time and calculate simple interest.
+// let principal = 1200;
+// let rate = 5;
+// let time = 3;
+// let SI = (principal*rate*time)/100;
+// console.log(SI);
+
+
+
+// 8. Input a character and print its ASCII value.
+// let ch = 'a';
+// console.log(ch.charCodeAt(0));
+
+// 11. Input two numbers and perform all arithmetic operations.
