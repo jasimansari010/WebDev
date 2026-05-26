@@ -84,4 +84,5 @@
 // console.log(name);
 
 
- 
+//  Operatore in js
+
