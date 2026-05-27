@@ -151,11 +151,20 @@
 // console.log(ch.charCodeAt(0));
 
 // 11. Input two numbers and perform all arithmetic operations.
-let num1 = 10;
-let num2 = 20;
-console.log("Sum: " + (num1+num2));
-console.log("Difference: " + (num1-num2));
-console.log("Product: " + (num1*num2));
-console.log("Quotient: " + (num1/num2));
-console.log("Remainder: " + (num1%num2));
-console.log("Exponentiation: " + (num1**num2));
+// let num1 = 10;
+// let num2 = 20;
+// console.log("Sum: " + (num1+num2));
+// console.log("Difference: " + (num1-num2));
+// console.log("Product: " + (num1*num2));
+// console.log("Quotient: " + (num1/num2));
+// console.log("Remainder: " + (num1%num2));
+// console.log("Exponentiation: " + (num1**num2));
+
+
+// 12. Check whether a number is even or odd using modulus operator.
+let num = Number(prompt("Enter a number: "));
+if(num%2==0){
+    console.log("Even");
+}else{
+    console.log("odd");
+}
