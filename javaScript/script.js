@@ -162,9 +162,19 @@
 
 
 // 12. Check whether a number is even or odd using modulus operator.
-let num = Number(prompt("Enter a number: "));
-if(num%2==0){
-    console.log("Even");
-}else{
-    console.log("odd");
-}
+// let num = Number(prompt("Enter a number: "));
+// if(num%2==0){
+//     console.log("Even");
+// }else{
+//     console.log("odd");
+// }
+
+
+// 13. Find largest among two numbers using ternary operator.
+// let num1 = Number(prompt("Enter a first number: "));
+// let num2 = Number(prompt("Enter a  second number: "));
+// let greater = num1 > num2 ? num1 : num2;
+// console.log(greater);
+
+
+
