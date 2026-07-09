@@ -161,6 +161,17 @@
 // console.log("Exponentiation: " + (num1**num2));
 
 
+
+
+
+
+// truthy and falsy
+// 0 "" false NaN null undefined document.all  --> falsy
+// other is truthy
+
+
+
+
 // 12. Check whether a number is even or odd using modulus operator.
 // let num = Number(prompt("Enter a number: "));
 // if(num%2==0){
@@ -178,9 +189,35 @@
 
 
 
-// truthy and falsy
-// 0 "" false NaN null undefined document.all  --> falsy
-// other is truthy
+// Switch case
+// let day = 4;
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   case 3:
+//     console.log("Wednesday");
+//     break;
+//   case 4:
+//     console.log("Thursday");
+//     break;
+//   case 5:
+//     console.log("Friday");
+//     break;
+//   case 6:
+//     console.log("Saturday");
+//     break;
+//   case 7:
+//     console.log("Sunday");
+//     break;
+//   default:
+//     console.log("Invalid day");
+// }
 
 
 
+
+// <------ loops ------>
