@@ -221,3 +221,47 @@
 
 
 // <------ loops ------>
+// for loop
+// for(let i = 1; i < 6; i++){
+//     console.log("hello");
+// }
+
+
+// for(let i = 1; i < 6; i++){
+//     console.log(1);
+// }
+
+
+// for(let i = 1; i < 6; i++){
+//     console.log(i);
+// }
+
+
+
+// for(let i = 91; i <= 100; i++){
+//     console.log(i);
+// }
+
+
+
+// for(let i = 30; i >= 10; i--){
+//     console.log(i);
+// }
+
+
+// let num = Number(prompt("Enter the number"));
+// for(let i = 1; i <= 10; i++){
+//     console.log(num + " * " + i + " = " + num*i);
+// }
+
+
+
+
+// for(let i = 1; i <= 100; i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+
+
