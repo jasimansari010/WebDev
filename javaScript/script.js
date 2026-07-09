@@ -249,9 +249,26 @@
 // }
 
 
+//print 12 to 1 but 5 and 7 is missing
+// for(let i=12; i>0; i--){
+//     if(i===5 || i===7){}
+//     else console.log(i);
+// }
+
+
+// for(let i=22; i>0; i--){
+//     if(i===5 || i===7){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+
 // let num = Number(prompt("Enter the number"));
 // for(let i = 1; i <= 10; i++){
-//     console.log(num + " * " + i + " = " + num*i);
+//     console.log(`${num} * ${i} = ${num*i}`);
 // }
 
 
@@ -262,6 +279,104 @@
 //         console.log(i);
 //     }
 // }
+
+
+
+// let age = prompt("Enter the age of User");
+// if (age == null){
+//     console.error("You  cancel it");
+// }else{
+//     if(age.trim() === ""){
+//         console.error("Please write something...");
+//     }
+//     else{
+//         age = Number(age);
+//         if(isNaN(age)){
+//             console.error("Please enter a number...");
+//         }else{
+//             console.log(`your age is ${age}`);
+//             if(age < 0){
+//                 console.error("Invalid Age");
+//             }else if(age >= 18){
+//                 console.log("You can vote");
+//             }else{
+//                 console.log("you cannot vote");
+//             }
+//         }
+//     }
+// }
+
+
+
+
+// count how many numbers between 1 and 15 are greater than 8 
+// let count = 0;
+// for(let i = 1; i < 15; i++){
+//     console.log(i);
+//     if(i>8){
+//         count++;
+//     }
+// }
+// console.log(`number greater than 8 is ${count}`);
+
+
+
+// let password = "harshbhai";
+// let pass = prompt("Enter the password");
+// if(pass === null){
+//     console.error("You cancel it");
+// }
+// else{
+//     if(pass === password){
+//         console.log("Matched")
+//     }else{
+//         console.log("not matched");
+//     }
+// }
+
+
+
+
+
+
+// <------While loop----------->
+// let i=1;
+// while(i<=10){
+//     console.log("hello");
+//     i++;
+// }
+
+
+
+
+// let attempts = 0;
+// let pass = "123";
+// let flag = false;
+// let password = prompt("Enter the password");
+// attempts++;
+// if (password === pass) {
+//     flag = true;
+// }
+
+// while (password !== pass) {
+
+//     if (attempts === 3) {
+//         console.error("Account blocked");
+//         break;
+//     }
+
+//     password = prompt("Enter the password");
+//     attempts++;
+
+//     if (password === pass) {
+//         flag = true;
+//     }
+// }
+
+// if (flag) {
+//     console.log("Account opened");
+// }
+
 
 
 
