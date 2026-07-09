@@ -181,3 +181,6 @@
 // truthy and falsy
 // 0 "" false NaN null undefined document.all  --> falsy
 // other is truthy
+
+
+
