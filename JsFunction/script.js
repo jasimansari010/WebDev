@@ -1,0 +1,91 @@
+// function declaration
+// function printHello(){
+//     console.log("Hello...")
+// }
+// printHello()
+
+
+//function expression
+// let res = function(){
+//     let a = +prompt("Enter the value of a: ");
+//     let b = +prompt("Enter the value of b: ");
+//     let sum = a + b;
+//     console.log(sum);
+// }
+// res();
+
+
+
+// An Arrow Function is a shorter way to write a function. It was introduced in ES6 (ECMAScript 2015).
+//arrow function
+// let hello = ()=>{
+//     console.log("hello");
+// }
+// hello();
+
+
+
+// A parameter is a variable written in the function definition. It receives the value when the function is called.
+// An argument is the actual value passed to the function when calling it.
+
+// function dance(a){                      //parameters
+//     console.log(`${a} is dancing`);
+// }
+// dance("jasim");         //argument
+// dance("aman");
+// dance("pawan");
+
+
+
+// function add(a,b){
+//     console.log(a+b);
+// }
+// add(21,44);
+// add(9,8);
+
+
+
+
+
+// function add(a=5,b=7){      //default parameter
+//     console.log(a+b);
+// }
+// add();
+// add(4,9);
+
+
+// jab argument kai sare ho to humein utne hi parameter banane padenge, issey bachne ke liye, hum rest ka use karte hai (...)  agar ... fuunction ke parameter space mein lage to wo rest operator hai.
+// function value(...val){
+//     console.log(val)
+// }
+// value(1,2,3,4,5,6,7,8,9);
+
+
+
+
+// function add(...val) {
+//     let sum = 0;
+//     for (let num of val) {
+//         sum += num;
+//     }
+//     console.log(sum);
+// }
+// add(1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+
+
+
+// The return keyword is used to send a value back from a function to the place where the function was called.
+
+// function abcd(){
+//     return 12;
+// }
+// let val = abcd();
+// console.log(val);
+
+
+// function abcd(v){
+//     return 12 + v;
+// }
+// let val = abcd(23);
+// console.log(val);

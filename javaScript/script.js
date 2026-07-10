@@ -380,3 +380,135 @@
 
 
 
+// let word = prompt("Enter word");
+// let count = 0;
+
+// while(word !== "stop"){
+//     if(word === "yes"){
+//         count++;
+//     }word = prompt("Enter word");
+// }
+// console.log(`total times yes is: ${count}`);
+
+
+
+
+
+
+// for(let i=1; i<=50;i++){
+//     if(i%7 == 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+
+// let sum = 0;
+// for(let i=1;i<=30;i++){
+//     if(i%2 != 0){
+//         sum+=i;
+//     }
+// }
+// console.log(sum);
+
+
+
+
+// let num = Number(prompt("Enter the number"));
+
+// while(num%2 !== 0){
+//     num = Number(prompt("Enter the number"));
+// }
+// console.log(`get the even number ${num}`);
+
+
+
+// let startNum = +prompt("Enter start number");
+// let endNum = +prompt("Enter last number");
+
+// while(startNum < endNum){
+//     console.log(startNum);
+//     startNum++;
+// }
+
+
+
+// let startNum = +prompt("Enter start number");
+// let endNum = +prompt("Enter last number");
+
+// if(startNum > endNum){
+//     console.error("Start is not more than end");
+// }
+
+// for(let i=startNum+1; i<endNum; i++){
+//     console.log(i)
+// }
+
+
+
+// let count = 0;
+// for(let i=1;i<21;i++){
+   
+//     if(i%2!=0){
+//         console.log(i);
+//         count++;
+
+//         if(count==3){
+//             break;
+//         }
+//     }
+// }
+
+
+
+
+// let count = 0;
+// for(let i=1;i<6;i++){
+//     let num = +prompt("enter the number");
+//     if(num>= 0){
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+
+
+
+// let balance = 1000;
+// let flag = false;
+// let count = 0;
+
+// while(balance > 0 && count!==3){
+//     let withdraw = +prompt("Enter the withdraw amount");
+//     count++;
+//     if(withdraw <= balance){
+//         balance -= withdraw;
+//     }else{
+//         flag = true;
+//         break;
+//     }
+// }
+
+// if (flag === true){
+//     console.log("Insufficient balance");
+// }
+// console.log(`balance ${balance}`);
+
+
+
+
+//<--------do while------->
+// let i = 1;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i < 10)
+
+
+let i = 1;
+do{
+    console.log(i);
+    i++;
+}while(i > 10)
