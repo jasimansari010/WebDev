@@ -1,3 +1,7 @@
+// A function is a reusable block of code that performs a specific task.
+// Instead of writing the same code again and again, we write it once inside a function and call it whenever we need it.
+
+
 // function declaration
 // function printHello(){
 //     console.log("Hello...")
@@ -89,3 +93,94 @@
 // }
 // let val = abcd(23);
 // console.log(val);
+
+
+
+
+
+
+
+// First-Class Function is a property of JavaScript (functions behave like values).
+// function abcd(val){
+//     val();
+// }
+// abcd(function (){
+//     console.log("hey")
+// })
+
+
+
+
+// Higher-Order Function is a function that accepts another function as an argument or returns a function.
+// function abcd(){
+//     return function(){
+//         console.log("hi");
+//     }
+// }
+// abcd()();
+
+
+
+
+// pure function----> Does not change anything outside the function (no side effects).
+// function add(a, b) {
+//     return a + b;
+// }
+// console.log(add(10, 20));
+// console.log(add(10, 20));
+
+
+// Impure function----> Changes something outside the function (side effects).
+// let count = 0;
+// function increment() {
+//     count++;
+//     return count;
+// }
+// console.log(increment());
+// console.log(increment());
+
+
+
+
+// closures---> A closure is a function that returns another function, and the returned function always remembers and can access the variables of its parent (outer) function.
+// function abcd(){
+//     let a = 12;
+//     return function(){
+//         console.log(a)
+//     }
+// }
+// let res = abcd();
+// res();
+
+
+
+// Lexical Scope means: A function can access variables from the scope where it was created (written), not where it is called.
+// function abcd(){
+//     let a = 12;
+//     function defg(){
+//         let b = 13;
+//         function ghij(){
+//             let c = 14;
+//             console.log(a,b,c)
+//         }
+//         ghij();
+//     }
+//     defg();
+// }
+// abcd();
+
+
+
+// Hoisting means: Before executing the code, JavaScript moves declarations to the top of their scope.
+// it is not done in function expression but you can done in statement. 
+
+// abcd();
+// function abcd(){
+//     console.log("hoisting");
+// }
+
+
+
+
+
+
