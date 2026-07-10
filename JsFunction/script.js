@@ -184,3 +184,13 @@
 
 
 
+// function bioData(...arguments){
+//     // console.log(name,age,email);
+//     console.log(arguments)
+// }
+// bioData("jasim" ,25, "jasim123@gmail.com")
+
+
+
+
+
