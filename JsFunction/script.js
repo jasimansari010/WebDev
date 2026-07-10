@@ -194,3 +194,20 @@
 
 
 
+// function abcd(a,b,c,d){         //positional argument
+//     console.log(a,b,c,d);
+// }
+// abcd(1,2,3,4);
+
+
+
+// function abcd(a,b,c,d,e){
+//     console.log(a,b,c,d,e);
+// }
+// let arr = [1,2,3,4,5];
+// abcd(...arr);         //spread argument
+
+
+
+
+
