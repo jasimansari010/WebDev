@@ -7,3 +7,78 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+
+/* .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(20, 120, 80);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+button{
+    margin: 10px;
+    padding: 10px 20px;
+} */
+
+
+
+
+
+
+
+/* .container{
+    height: 100vh;
+    background-color: rgb(223, 223, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h2{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: red;
+    font-size: 20px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+button{
+    margin: 10px;
+    padding: 10px 20px;
+} */
+
+
+
+
+
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    padding: 10px 20px;
+    color: #99C2FF;
+    background-color: #f55c9f;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
