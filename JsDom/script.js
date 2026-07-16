@@ -245,3 +245,56 @@
 
 
 
+// let box = document.querySelector('.box');
+
+// box.addEventListener("mouseover", () => {
+
+//     let cols = setInterval(() => {
+//         let r = Math.floor(Math.random() * 256);
+//         let g = Math.floor(Math.random() * 256);
+//         let b = Math.floor(Math.random() * 256);
+
+//         box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+//         console.log(`rgb ${r},${g},${b}`)
+//     }, 1000);
+
+//     setTimeout(()=>{
+//         clearInterval(cols);
+//     },10000)
+
+// });
+
+
+
+
+
+
+// let box = document.querySelector('.box');
+
+// box.addEventListener("mouseenter", () => {
+
+//     let cols = setInterval(() => {
+//         let r = Math.floor(Math.random() * 256);
+//         let g = Math.floor(Math.random() * 256);
+//         let b = Math.floor(Math.random() * 256);
+
+//         box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+//         console.log(`rgb ${r},${g},${b}`)
+//     }, 1000);
+
+//     setTimeout(()=>{
+//         clearInterval(cols);
+//     },10000)
+
+// });
+
+
+
+
+
+// let body = document.body;
+// let h1 = document.querySelector('h1');
+
+// body.addEventListener('keydown',(dets)=>{
+//         h1.innerHTML = dets.code;
+// })
